@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Create a professional marketing website for BRICK INDIA DESIGNERS PVT LTD (Digital Signage), including company overview/services plus expanded content sections (engagement models, getting started steps, privacy/security, FAQs/testimonials/certifications) and Trillboards partnership/onboarding content, with clear CTAs and contact information.",
+  "architectural_notes": [
+    "Website information architecture includes pages/sections: Home, About, Services, Trillboards (partnership + how it works + earnings/stats), Careers (Operations Executives), Contact (address/phone/email).",
+    "Include additional site sections/blocks: Flexible Engagement Models, Getting Started (steps 1–5), Data Privacy/Security, FAQ, Certifications/Controls, and social proof (testimonials/see-it-in-action/why-choose-us) alongside core pages."
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Edit Images\n- Create a clean, high-resolution PNG logo with transparent background derived from the uploaded image (IMG_20260209_021951.jpg > brick-india-logo.dim_512x512.png)\n- Create a simplified favicon version derived from the uploaded logo (IMG_20260209_021951.jpg > favicon.dim_64x64.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-professional-responsive-marketing-website-using-the-provided-content-for-brick-india-designers-pvt-ltd-with-top-level-navigation-and-routes-sections-for-home-about-services-trillboards-careers-and-contact",
+      "title": "Create a professional, responsive marketing website using the provided content for BRICK INDIA DESIGNERS PVT LTD with top-level navigation and routes/sections for: Home, About, Services, Trillboards, Careers, and Contact.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-home-page-implement-a-hero-section-with-the-company-name-digital-signage-the-tagline-positioning-unlocking-potential-crafting-identities-digital-experiences-and-print-materials-to-drive-your-success-and-prominent-ctas-for-contact-us-and-trillboards-start-earning-include-a-highlights-section-summarizing-key-offerings-design-development-business-support-and-the-trillboards-opportunity",
+      "title": "Home page: implement a hero section with the company name, “Digital Signage”, the tagline/positioning (“Unlocking Potential. Crafting identities, digital experiences, and print materials to drive your success.”), and prominent CTAs for “Contact Us” and “Trillboards: Start Earning”. Include a highlights section summarizing key offerings (design/development/business support) and the Trillboards opportunity.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-about-page-section-present-the-company-background-founded-in-2022-by-syed-iqbal-ceo-founder-and-a-concise-description-of-business-analysis-and-solutions-approach-include-the-track-your-team-s-progress-with-our-mobile-app-positioning-as-a-short-callout-block",
+      "title": "About page/section: present the company background (founded in 2022 by Syed Iqbal, CEO & Founder) and a concise description of business analysis and solutions approach. Include the “Track your team's progress with our mobile app” positioning as a short callout block.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-services-page-section-display-the-provided-service-domains-as-structured-scannable-lists-cards-e-g-hr-recruitment-talent-acquisition-website-app-design-development-graphic-logo-design-ecommerce-html-php-corporate-branding-data-analytics-seo-social-media-marketing-article-writing-web-research-event-management",
+      "title": "Services page/section: display the provided service domains as structured, scannable lists/cards (e.g., HR/Recruitment, Talent Acquisition, Website/App Design & Development, Graphic/Logo Design, eCommerce, HTML/PHP, Corporate Branding, Data Analytics, SEO, Social Media Marketing, Article Writing, Web Research, Event Management).",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-trillboards-page-section-implement-a-detailed-partnership-and-onboarding-explainer-including-what-trillboards-is-software-only-no-hardware-installs-cost-turn-your-tv-into-extra-income-the-3-step-how-it-works-download-app-visit-trill-ink-and-scan-qr-start-earning-and-the-key-proof-points-2500-screens-41-8m-paid-10-0m-impressions-include-earning-highlights-with-the-provided-ranges-and-the-sample-estimate-shown-in-the-content",
+      "title": "Trillboards page/section: implement a detailed partnership and onboarding explainer including: what Trillboards is (software-only, no hardware/installs/cost), “Turn Your TV Into Extra Income”, the 3-step “How It Works” (download app; visit trill.ink and scan QR; start earning), and the key proof points (2500+ screens, ₹41.8M+ paid, 10.0M+ impressions). Include earning highlights with the provided ranges and the sample estimate shown in the content.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-an-earnings-calculator-ui-section-that-allows-selecting-the-listed-business-types-coffee-shop-bar-restaurant-gym-fitness-barbershop-salon-retail-store-gas-station-convenience-and-shows-the-provided-sample-estimate-display-5-511-month-and-that-s-66-132-per-year-if-no-formula-is-provided-treat-this-as-a-static-demo-calculator-that-updates-the-ui-state-e-g-selected-type-but-keeps-the-displayed-estimate-aligned-to-the-provided-example",
+      "title": "Implement an “Earnings Calculator” UI section that allows selecting the listed business types (Coffee Shop, Bar/Restaurant, Gym/Fitness, Barbershop/Salon, Retail Store, Gas Station/Convenience) and shows the provided sample estimate display (“₹5,511 /month” and “That's ₹66,132 per year”). If no formula is provided, treat this as a static/demo calculator that updates the UI state (e.g., selected type) but keeps the displayed estimate aligned to the provided example.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-careers-page-section-include-the-hiring-message-for-operations-executives-across-major-cities-in-india-to-onboard-commercial-tv-screen-owners-onto-the-platform-with-a-cta-to-contact-via-phone-email",
+      "title": "Careers page/section: include the hiring message for Operations Executives across major cities in India to onboard commercial TV screen owners onto the platform, with a CTA to contact via phone/email.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-contact-page-section-display-the-full-address-phone-number-and-email-exactly-as-provided-add-a-simple-contact-form-name-phone-email-message-that-does-not-require-backend-submission-e-g-opens-mail-client-via-mailto-with-prefilled-subject-body-or-clearly-indicates-copy-to-email",
+      "title": "Contact page/section: display the full address, phone number, and email exactly as provided. Add a simple contact form (name, phone/email, message) that does not require backend submission (e.g., opens mail client via mailto with prefilled subject/body or clearly indicates copy-to-email).",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-coherent-visual-theme-across-the-site-with-a-distinct-professional-style-suitable-for-a-digital-signage-business-services-company-avoid-default-looking-layouts-use-a-warm-modern-palette-do-not-use-a-blue-purple-dominant-theme-strong-typography-hierarchy-consistent-spacing-and-reusable-section-components",
+      "title": "Apply a coherent visual theme across the site with a distinct, professional style suitable for a digital signage/business services company (avoid default-looking layouts). Use a warm, modern palette (do not use a blue/purple dominant theme), strong typography hierarchy, consistent spacing, and reusable section components.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-basic-seo-and-sharing-metadata-page-titles-description-favicon-for-the-site-using-the-company-name-and-digital-signage-trillboards-context-ensuring-text-remains-in-english-and-aligns-with-the-provided-content",
+      "title": "Add basic SEO and sharing metadata (page titles, description, favicon) for the site using the company name and digital signage/Trillboards context, ensuring text remains in English and aligns with the provided content.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-generate-and-include-required-static-images-in-the-frontend-at-frontend-public-assets-generated-and-use-them-in-the-ui-logo-hero-banner-simple-icon-set-without-routing-images-through-the-backend",
+      "title": "Generate and include required static images in the frontend at frontend/public/assets/generated and use them in the UI (logo, hero banner, simple icon set) without routing images through the backend.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-getting-started-section-on-the-services-page-that-presents-the-5-step-workflow-exactly-as-provided-1-submit-the-website-form-add-wishlist-of-services-in-the-shopping-cart-and-submit-the-website-form-2-requirement-analysis-contact-within-4-hours-to-finalize-scope-deliverables-engagement-model-performance-indicators-3-pricing-contracting-work-order-ndas-slas-payment-after-signing-4-project-execution-status-updates-account-manager-5-project-closure-close-project-send-feedback-survey-all-user-facing-text-must-be-in-english",
+      "title": "Add a “Getting Started” section on the Services page that presents the 5-step workflow exactly as provided: (1) Submit the website form (add wishlist of services in the shopping cart and submit the website form), (2) Requirement Analysis (contact within 4 hours to finalize scope/deliverables/engagement model/performance indicators), (3) Pricing & Contracting (Work Order, NDAs, SLAs; payment after signing), (4) Project Execution (status updates; Account Manager), (5) Project Closure (close project; send feedback survey). All user-facing text must be in English.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-data-privacy-security-section-that-summarizes-the-provided-privacy-security-confidentiality-statements-in-clear-english-including-that-data-security-is-an-ongoing-practice-stringent-measures-are-implemented-and-customer-data-is-treated-with-utmost-care-for-privacy-security-and-confidentiality-include-a-concise-list-of-the-provided-control-areas-certifications-physical-security-controls-it-security-controls-access-controls-data-security-awareness-business-continuity-plan-people-compliance-incident-monitoring-capabilities-place-this-section-on-an-appropriate-existing-page-about-or-services-and-ensure-it-is-reachable-via-in-page-anchors-or-a-clear-link-from-the-footer-header-navigation-without-adding-a-new-top-level-route",
+      "title": "Add a “Data Privacy & Security” section that summarizes the provided privacy/security/confidentiality statements in clear English, including that data security is an ongoing practice; stringent measures are implemented; and customer data is treated with utmost care for privacy, security, and confidentiality. Include a concise list of the provided control areas: Certifications, Physical Security Controls, IT Security Controls, Access Controls, Data Security Awareness, Business Continuity Plan, People Compliance, Incident Monitoring Capabilities. Place this section on an appropriate existing page (About or Services) and ensure it is reachable via in-page anchors or a clear link from the footer/header navigation without adding a new top-level route.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-expand-the-trillboards-page-with-a-common-questions-faq-section-and-a-simple-social-proof-area-using-only-the-user-provided-headings-content-cues-include-common-questions-see-it-in-action-with-a-placeholder-for-a-video-link-or-embedded-frame-but-no-external-integration-required-and-hear-from-a-trillboards-screen-owner-as-a-testimonial-style-card-with-placeholder-quote-text-if-no-quote-is-provided-keep-all-user-facing-text-in-english",
+      "title": "Expand the Trillboards page with a “Common Questions” (FAQ) section and a simple social proof area, using only the user-provided headings/content cues: include “Common Questions”, “See It In Action” (with a placeholder for a video link or embedded frame but no external integration required), and “Hear from a Trillboards screen owner” (as a testimonial-style card with placeholder quote text if no quote is provided). Keep all user-facing text in English.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-site-logo-and-favicon-assets-with-versions-derived-from-the-uploaded-logo-images-export-and-store-the-final-logo-and-favicon-at-the-existing-paths-used-by-the-app-frontend-public-assets-generated-brick-india-logo-dim-512x512-png-and-frontend-public-assets-generated-favicon-dim-64x64-png-ensure-the-header-footer-and-favicon-continue-to-load-correctly-without-code-path-changes",
+      "title": "Replace the site logo and favicon assets with versions derived from the uploaded logo images. Export and store the final logo and favicon at the existing paths used by the app: /frontend/public/assets/generated/brick-india-logo.dim_512x512.png and /frontend/public/assets/generated/favicon.dim_64x64.png. Ensure the header, footer, and favicon continue to load correctly without code path changes.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Build a professional company website using the provided content (Home, About, Services, Trillboards, Careers, Contact), including Trillboards onboarding details, earning highlights, and contact/address/CTA sections.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Add additional content sections beyond the core pages: Flexible Engagement Models (one-time vs long-term), Getting Started steps (1–5 workflow), Data Privacy/Security overview, FAQs, certifications/security controls list, and social proof blocks (e.g., testimonials/“See it in action”/“Why choose us”).",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "projectName": "BRICK INDIA DESIGNERS PVT LTD",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

@@ -1,0 +1,110 @@
+{
+  "kind": "build_request",
+  "title": "Add missing content sections and apply uploaded logo for BRICK INDIA DESIGNERS website",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-12",
+      "text": "Add a “Getting Started” section on the Services page that presents the 5-step workflow exactly as provided: (1) Submit the website form (add wishlist of services in the shopping cart and submit the website form), (2) Requirement Analysis (contact within 4 hours to finalize scope/deliverables/engagement model/performance indicators), (3) Pricing & Contracting (Work Order, NDAs, SLAs; payment after signing), (4) Project Execution (status updates; Account Manager), (5) Project Closure (close project; send feedback survey). All user-facing text must be in English.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Getting Started\nSteps to be followed\n1 Submit the website form ...\n2 Requirement Analysis ... within 4 hours ...\n3 Pricing & Contracting ... Work Order, NDAs, and SLAs ...\n4 Project Execution ... Account Manager ...\n5 Project Closure ... feedback survey"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Services page includes a clearly labeled “Getting Started” section.",
+        "The section renders 5 steps (numbered 1–5) with titles and descriptions matching the provided content.",
+        "Text is in English and is scannable on mobile (cards/stacked layout) and desktop (grid/timeline layout)."
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "text": "Add a “Data Privacy & Security” section that summarizes the provided privacy/security/confidentiality statements in clear English, including that data security is an ongoing practice; stringent measures are implemented; and customer data is treated with utmost care for privacy, security, and confidentiality. Include a concise list of the provided control areas: Certifications, Physical Security Controls, IT Security Controls, Access Controls, Data Security Awareness, Business Continuity Plan, People Compliance, Incident Monitoring Capabilities. Place this section on an appropriate existing page (About or Services) and ensure it is reachable via in-page anchors or a clear link from the footer/header navigation without adding a new top-level route.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Data\nPrivacy Security\nAt Brickwork, data security is an ongoing practice... implemented stringent data security measures... treat \"Customer data\" with utmost care...",
+          "Certifications Physical Security Controls IT Security Controls Access Controls Data Security Awareness Business Continuity Plan People Compliance Incident Monitoring Capabilities"
+        ]
+      },
+      "acceptanceCriteria": [
+        "A “Data Privacy & Security” section exists on an existing page and is accessible via a visible link or in-page anchor.",
+        "The section includes an English summary paragraph aligned with the provided content.",
+        "The provided control areas are displayed as a readable list (bulleted list or tag/chip grid)."
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "text": "Expand the Trillboards page with a “Common Questions” (FAQ) section and a simple social proof area, using only the user-provided headings/content cues: include “Common Questions”, “See It In Action” (with a placeholder for a video link or embedded frame but no external integration required), and “Hear from a Trillboards screen owner” (as a testimonial-style card with placeholder quote text if no quote is provided). Keep all user-facing text in English.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Common Questions",
+          "See It In Action\nWatch how real business owners use Trillboards.",
+          "Hear from a Trillboards screen owner"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Trillboards page contains a distinct “Common Questions” section.",
+        "Trillboards page contains a “See It In Action” block with a non-breaking placeholder (e.g., a responsive empty video container with a caption) and no required external APIs.",
+        "Trillboards page contains a testimonial-style block titled “Hear from a Trillboards screen owner” using English placeholder copy (since no quote text was provided)."
+      ]
+    },
+    {
+      "id": "REQ-15",
+      "text": "Replace the site logo and favicon assets with versions derived from the uploaded logo images. Export and store the final logo and favicon at the existing paths used by the app: /frontend/public/assets/generated/brick-india-logo.dim_512x512.png and /frontend/public/assets/generated/favicon.dim_64x64.png. Ensure the header, footer, and favicon continue to load correctly without code path changes.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "The user has uploaded 2 image(s): IMG_20260209_021951.jpg, IMG_20260209_021951-1.jpg."
+        ]
+      },
+      "acceptanceCriteria": [
+        "The header and footer logo render as the uploaded brand mark (not the previous placeholder), with clean edges and no visible artifacting.",
+        "The favicon in the browser tab matches the uploaded logo mark and loads from /assets/generated/favicon.dim_64x64.png.",
+        "No broken image links; the existing <img src=\"/assets/generated/brick-india-logo.dim_512x512.png\"> continues to work."
+      ]
+    }
+  ],
+  "constraints": [
+    "Use English for all user-facing text.",
+    "Do not edit files under frontend/src/components/ui (read-only components must be composed, not modified).",
+    "Do not modify immutable hook files listed in SYSTEM_CONTEXT (compose around them).",
+    "Keep backend as a single Motoko actor; add backend changes only if required (this request is frontend/content-only)."
+  ],
+  "nonGoals": [
+    "Implementing real backend submission for forms or storing contact/lead data.",
+    "Adding new third-party integrations (video hosting APIs, analytics, chat, etc.).",
+    "Adding new top-level routes beyond the existing Home/About/Services/Trillboards/Careers/Contact navigation."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": [
+      "Create a clean, high-resolution PNG logo with transparent background derived from the uploaded image (IMG_20260209_021951.jpg > brick-india-logo.dim_512x512.png)",
+      "Create a simplified favicon version derived from the uploaded logo (IMG_20260209_021951.jpg > favicon.dim_64x64.png)"
+    ]
+  },
+  "userProfileUpdate": {
+    "goalsToAdd": [],
+    "goalsToRemove": [],
+    "preferencesToAdd": [],
+    "preferencesToRemove": [],
+    "miscToAdd": [],
+    "miscToRemove": [],
+    "fieldsToSet": {},
+    "fieldsToDelete": []
+  }
+}

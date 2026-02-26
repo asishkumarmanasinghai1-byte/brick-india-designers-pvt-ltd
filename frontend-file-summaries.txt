@@ -1,0 +1,20 @@
+{
+  "frontend/src/App.tsx": "Main application component that sets up TanStack Router with routes for Home, About, Services, Trillboards, Careers, and Contact pages, all wrapped in the SiteLayout component.",
+  "frontend/src/components/site/SiteLayout.tsx": "Shared layout component providing sticky header with logo and navigation, mobile menu with Sheet component, main content outlet, and footer with company info, quick links including new Data Privacy & Security anchor link, and attribution.",
+  "frontend/src/components/site/Section.tsx": "Reusable section wrapper component with consistent padding, container width, and variant options (default, muted, accent) for visual hierarchy across pages.",
+  "frontend/src/components/site/HighlightsSection.tsx": "Grid of four highlight cards showcasing Business Support, Design & Development, Research Support, and Trillboards Partnership with icons and descriptions.",
+  "frontend/src/components/site/ContactForm.tsx": "Client-side contact form that collects name, email, mobile, and message, then opens mailto link with pre-filled content to support email address.",
+  "frontend/src/components/trillboards/HowItWorks.tsx": "Three-step process cards explaining Trillboards onboarding (Download App, Scan QR at trill.ink, Start Earning) with numbered icons and descriptions using proper string quotes.",
+  "frontend/src/components/trillboards/ProofPoints.tsx": "Three metric cards displaying Trillboards statistics (2500+ Screens, ₹41.8M+ Paid, 10.0M+ Impressions) with icons.",
+  "frontend/src/components/trillboards/EarningsCalculator.tsx": "Interactive calculator allowing business type selection with static earnings display showing ₹5,511/month estimate and passive income benefits checklist, using Tailwind v3 shrink-0 class.",
+  "frontend/src/pages/HomePage.tsx": "Landing page with hero section featuring company name, tagline, CTAs, hero image, highlights section, and final CTA section encouraging contact.",
+  "frontend/src/pages/AboutPage.tsx": "About page presenting company founding story, founder info, mobile app callout card, expertise and approach cards, and Trillboards partnership description.",
+  "frontend/src/pages/ServicesPage.tsx": "Services page displaying six service group cards, flexible engagement models, a new \"Getting Started\" section with 5-step workflow, and a \"Data Privacy & Security\" section with security controls displayed as badges.",
+  "frontend/src/pages/TrillboardsPage.tsx": "Comprehensive Trillboards page with hero, definition, proof points, how-it-works steps, earnings calculator, a new \"See It In Action\" video placeholder section, a testimonial card from a screen owner, a \"Common Questions\" FAQ accordion section, benefits cards, and get-started CTA.",
+  "frontend/src/pages/CareersPage.tsx": "Careers page featuring Operations Executive job posting with role details, responsibilities, ideal candidate profile, and application contact information, using Tailwind v3 shrink-0 class.",
+  "frontend/src/pages/ContactPage.tsx": "Contact page with address/phone/email cards, business hours, and contact form for inquiries, using Tailwind v3 shrink-0 class.",
+  "frontend/src/hooks/usePageMeta.ts": "Custom hook to set document title and meta description dynamically for each page route.",
+  "frontend/src/index.css": "Global styles with warm brick/amber OKLCH color palette for light and dark modes, typography defaults, and utility classes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending theme with warm color palette, Inter font family, custom spacing, and animation utilities.",
+  "frontend/index.html": "HTML entry point with SEO meta tags, Open Graph tags, favicon link, and root div for React app."
+}

@@ -1,0 +1,79 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-08T22:19:02.498Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 4,
+    "implemented": 4,
+    "items": [
+      {
+        "id": "REQ-12",
+        "summary": "Add a “Getting Started” section on the Services page that presents the 5-step workflow exactly as provided: (1) Submit the website form (add wishlist of services in the shopping cart and submit the website form), (2) Requirement Analysis (contact within 4 hours to finalize scope/deliverables/engagement model/performance indicators), (3) Pricing & Contracting (Work Order, NDAs, SLAs; payment after signing), (4) Project Execution (status updates; Account Manager), (5) Project Closure (close project; send feedback survey). All user-facing text must be in English.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/ServicesPage.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/ServicesPage.tsx"
+        ]
+      },
+      {
+        "id": "REQ-13",
+        "summary": "Add a “Data Privacy & Security” section that summarizes the provided privacy/security/confidentiality statements in clear English, including that data security is an ongoing practice; stringent measures are implemented; and customer data is treated with utmost care for privacy, security, and confidentiality. Include a concise list of the provided control areas: Certifications, Physical Security Controls, IT Security Controls, Access Controls, Data Security Awareness, Business Continuity Plan, People Compliance, Incident Monitoring Capabilities. Place this section on an appropriate existing page (About or Services) and ensure it is reachable via in-page anchors or a clear link from the footer/header navigation without adding a new top-level route.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/ServicesPage.tsx",
+          "frontend/src/components/site/SiteLayout.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/ServicesPage.tsx",
+          "frontend/src/components/site/SiteLayout.tsx"
+        ]
+      },
+      {
+        "id": "REQ-14",
+        "summary": "Expand the Trillboards page with a “Common Questions” (FAQ) section and a simple social proof area, using only the user-provided headings/content cues: include “Common Questions”, “See It In Action” (with a placeholder for a video link or embedded frame but no external integration required), and “Hear from a Trillboards screen owner” (as a testimonial-style card with placeholder quote text if no quote is provided). Keep all user-facing text in English.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/TrillboardsPage.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/TrillboardsPage.tsx"
+        ]
+      },
+      {
+        "id": "REQ-15",
+        "summary": "Replace the site logo and favicon assets with versions derived from the uploaded logo images. Export and store the final logo and favicon at the existing paths used by the app: /frontend/public/assets/generated/brick-india-logo.dim_512x512.png and /frontend/public/assets/generated/favicon.dim_64x64.png. Ensure the header, footer, and favicon continue to load correctly without code path changes.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/public/assets/generated/brick-india-logo.dim_512x512.png",
+          "frontend/public/assets/generated/favicon.dim_64x64.png"
+        ],
+        "matchedFiles": [
+          "frontend/public/assets/generated/brick-india-logo.dim_512x512.png",
+          "frontend/public/assets/generated/favicon.dim_64x64.png"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/public/assets/generated/brick-india-logo.dim_512x512.png",
+    "frontend/public/assets/generated/favicon.dim_64x64.png",
+    "frontend/src/components/site/SiteLayout.tsx",
+    "frontend/src/pages/ServicesPage.tsx",
+    "frontend/src/pages/TrillboardsPage.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

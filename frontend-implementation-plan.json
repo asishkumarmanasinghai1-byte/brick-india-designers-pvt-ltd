@@ -1,0 +1,81 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "BRICK INDIA DESIGNERS: Add missing content sections and apply uploaded logo",
+  "requirements": [
+    {
+      "id": "REQ-12",
+      "summary": "Add a “Getting Started” section to the Services page with the exact 5-step workflow content in English and responsive layout.",
+      "acceptanceCriteria": [
+        "Services page includes a clearly labeled “Getting Started” section.",
+        "The section renders 5 steps (numbered 1–5) with titles and descriptions matching the provided content.",
+        "Text is in English and is scannable on mobile (cards/stacked layout) and desktop (grid/timeline layout)."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/ServicesPage.tsx",
+          "operation": "modify",
+          "description": "Add a new “Getting Started” section using the existing site Section/SectionHeader wrappers and existing UI Card components to present the provided 5 steps (1–5) with titles + descriptions exactly as specified; implement responsive layout (stack on mobile, grid-like layout on desktop). Verify the component's usage instructions before implementing."
+        }
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "summary": "Add a “Data Privacy & Security” section on an existing page and make it reachable via an in-page anchor or clear nav link (no new route).",
+      "acceptanceCriteria": [
+        "A “Data Privacy & Security” section exists on an existing page and is accessible via a visible link or in-page anchor.",
+        "The section includes an English summary paragraph aligned with the provided content.",
+        "The provided control areas are displayed as a readable list (bulleted list or tag/chip grid)."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/ServicesPage.tsx",
+          "operation": "modify",
+          "description": "Place a “Data Privacy & Security” section on the Services page (no new route) with an in-page anchor id (e.g., data-privacy-security), an English summary aligned to the provided statements (ongoing practice, stringent measures, utmost care for privacy/security/confidentiality), and a readable list UI for the specified control areas (Certifications, Physical Security Controls, IT Security Controls, Access Controls, Data Security Awareness, Business Continuity Plan, People Compliance, Incident Monitoring Capabilities). Verify the component's usage instructions before implementing."
+        },
+        {
+          "path": "frontend/src/components/site/SiteLayout.tsx",
+          "operation": "modify",
+          "description": "Add a visible navigation affordance (footer link under Quick Links or Services) that navigates users to the existing Services route with the in-page anchor (e.g., /services#data-privacy-security) so the section is clearly reachable without adding a new top-level route. Verify the component's usage instructions before implementing."
+        }
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "summary": "Expand the Trillboards page with a “Common Questions” (FAQ) section, a “See It In Action” video placeholder block, and a testimonial-style social proof card in English.",
+      "acceptanceCriteria": [
+        "Trillboards page contains a distinct “Common Questions” section.",
+        "Trillboards page contains a “See It In Action” block with a non-breaking placeholder (e.g., a responsive empty video container with a caption) and no required external APIs.",
+        "Trillboards page contains a testimonial-style block titled “Hear from a Trillboards screen owner” using English placeholder copy (since no quote text was provided)."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/TrillboardsPage.tsx",
+          "operation": "modify",
+          "description": "Add three new content blocks to Trillboards page: (1) “Common Questions” section (FAQ-style layout using existing primitives such as Card and/or semantic details/summary), (2) “See It In Action” block with a responsive non-breaking video placeholder container and caption text matching the provided cue, and (3) “Hear from a Trillboards screen owner” testimonial-style card with English placeholder quote/copy (no external integrations). Verify the component's usage instructions before implementing."
+        }
+      ]
+    },
+    {
+      "id": "REQ-15",
+      "summary": "Replace logo and favicon assets at the existing generated asset paths so header/footer and favicon continue to load without code path changes.",
+      "acceptanceCriteria": [
+        "The header and footer logo render as the uploaded brand mark (not the previous placeholder), with clean edges and no visible artifacting.",
+        "The favicon in the browser tab matches the uploaded logo mark and loads from /assets/generated/favicon.dim_64x64.png.",
+        "No broken image links; the existing <img src=\"/assets/generated/brick-india-logo.dim_512x512.png\"> continues to work."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/public/assets/generated/brick-india-logo.dim_512x512.png",
+          "operation": "modify",
+          "description": "Replace this file with a clean, high-resolution PNG logo with transparent background derived from the uploaded image (IMG_20260209_021951.jpg), preserving the exact filename/path so existing header/footer references continue to work."
+        },
+        {
+          "path": "frontend/public/assets/generated/favicon.dim_64x64.png",
+          "operation": "modify",
+          "description": "Replace this file with a simplified favicon derived from the uploaded logo (IMG_20260209_021951.jpg), preserving the exact filename/path so the existing favicon link continues to work."
+        }
+      ]
+    }
+  ]
+}

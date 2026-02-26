@@ -1,0 +1,76 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-add-a-getting-started-section-on-the-services-page-that-presents-the-5-step-workflow-exactly-as-provided-1-submit-the-website-form-add-wishlist-of-services-in-the-shopping-cart-and-submit-the-website-form-2-requirement-analysis-contact-within-4-hours-to-finalize-scope-deliverables-engagement-model-performance-indicators-3-pricing-contracting-work-order-ndas-slas-payment-after-signing-4-project-execution-status-updates-account-manager-5-project-closure-close-project-send-feedback-survey-all-user-facing-text-must-be-in-english",
+      "featureTitle": "Add a “Getting Started” section on the Services page that presents the 5-step workflow exactly as provided: (1) Submit the website form (add wishlist of services in the shopping cart and submit the website form), (2) Requirement Analysis (contact within 4 hours to finalize scope/deliverables/engagement model/performance indicators), (3) Pricing & Contracting (Work Order, NDAs, SLAs; payment after signing), (4) Project Execution (status updates; Account Manager), (5) Project Closure (close project; send feedback survey). All user-facing text must be in English.",
+      "files": [
+        "frontend/src/pages/ServicesPage.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-12"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-a-data-privacy-security-section-that-summarizes-the-provided-privacy-security-confidentiality-statements-in-clear-english-including-that-data-security-is-an-ongoing-practice-stringent-measures-are-implemented-and-customer-data-is-treated-with-utmost-care-for-privacy-security-and-confidentiality-include-a-concise-list-of-the-provided-control-areas-certifications-physical-security-controls-it-security-controls-access-controls-data-security-awareness-business-continuity-plan-people-compliance-incident-monitoring-capabilities-place-this-section-on-an-appropriate-existing-page-about-or-services-and-ensure-it-is-reachable-via-in-page-anchors-or-a-clear-link-from-the-footer-header-navigation-without-adding-a-new-top-level-route",
+      "featureTitle": "Add a “Data Privacy & Security” section that summarizes the provided privacy/security/confidentiality statements in clear English, including that data security is an ongoing practice; stringent measures are implemented; and customer data is treated with utmost care for privacy, security, and confidentiality. Include a concise list of the provided control areas: Certifications, Physical Security Controls, IT Security Controls, Access Controls, Data Security Awareness, Business Continuity Plan, People Compliance, Incident Monitoring Capabilities. Place this section on an appropriate existing page (About or Services) and ensure it is reachable via in-page anchors or a clear link from the footer/header navigation without adding a new top-level route.",
+      "files": [
+        "frontend/src/components/site/SiteLayout.tsx",
+        "frontend/src/pages/ServicesPage.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-13"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-expand-the-trillboards-page-with-a-common-questions-faq-section-and-a-simple-social-proof-area-using-only-the-user-provided-headings-content-cues-include-common-questions-see-it-in-action-with-a-placeholder-for-a-video-link-or-embedded-frame-but-no-external-integration-required-and-hear-from-a-trillboards-screen-owner-as-a-testimonial-style-card-with-placeholder-quote-text-if-no-quote-is-provided-keep-all-user-facing-text-in-english",
+      "featureTitle": "Expand the Trillboards page with a “Common Questions” (FAQ) section and a simple social proof area, using only the user-provided headings/content cues: include “Common Questions”, “See It In Action” (with a placeholder for a video link or embedded frame but no external integration required), and “Hear from a Trillboards screen owner” (as a testimonial-style card with placeholder quote text if no quote is provided). Keep all user-facing text in English.",
+      "files": [
+        "frontend/src/pages/TrillboardsPage.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-14"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-replace-the-site-logo-and-favicon-assets-with-versions-derived-from-the-uploaded-logo-images-export-and-store-the-final-logo-and-favicon-at-the-existing-paths-used-by-the-app-frontend-public-assets-generated-brick-india-logo-dim-512x512-png-and-frontend-public-assets-generated-favicon-dim-64x64-png-ensure-the-header-footer-and-favicon-continue-to-load-correctly-without-code-path-changes",
+      "featureTitle": "Replace the site logo and favicon assets with versions derived from the uploaded logo images. Export and store the final logo and favicon at the existing paths used by the app: /frontend/public/assets/generated/brick-india-logo.dim_512x512.png and /frontend/public/assets/generated/favicon.dim_64x64.png. Ensure the header, footer, and favicon continue to load correctly without code path changes.",
+      "files": [],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-15"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
